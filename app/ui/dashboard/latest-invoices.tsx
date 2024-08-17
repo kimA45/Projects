@@ -1,7 +1,7 @@
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
-import { lusitana } from '@/app/ui/fonts';
+import { lusitana } from '../fonts';
 import { LatestInvoice } from '@/app/lib/definitions';
 export default async function LatestInvoices({
   latestInvoices,
@@ -14,7 +14,7 @@ export default async function LatestInvoices({
         Latest Invoices
       </h2>
       <div className="flex grow flex-col justify-between rounded-xl bg-gray-50 p-4">
-        {/* NOTE: Uncomment this code in Chapter 7 */}
+        {/* NOTE: comment in this code when you get to this point in the course */}
 
         {/* <div className="bg-white px-6">
           {latestInvoices.map((invoice, i) => {
